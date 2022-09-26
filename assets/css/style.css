@@ -1,0 +1,18 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&family=Quicksand:wght@300&display=swap');
+
+body {
+    font-family: 'inter-tight', sans-serif;
+}
+
+.navigation {
+    float: right;
+    
+}
+
+.big-image {
+    position: absolute;
+    width: 900px;
+    height: 800px;
+    border: 2px solid black;
+}
