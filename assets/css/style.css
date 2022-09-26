@@ -19,16 +19,13 @@ h1, h2, h3 {
     font-size: 150%;
     display: inline;
     padding-right: 20px;
+    padding-top: 25px;
 }
 
 h1 {
     float: left;
-    padding-top: 5px;
     padding-left: 10px;
 }
-
-
-
 
 /* hero image and list */
 .quick-facts {
@@ -42,4 +39,15 @@ h1 {
 
 ul {
     list-style-type: none;
+}
+
+/* fact-box div styling */
+
+
+.fact-box {
+    clear: both;
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(180, 180, 39, 0.06);
 }
