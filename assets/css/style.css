@@ -5,6 +5,7 @@
 body {
     font-family: 'inter-tight', sans-serif;
     font-weight: 100;
+    background-color: whitesmoke;
 }
 
 h1, h2, h3 {
@@ -28,18 +29,33 @@ h1 {
 }
 
 /* hero image and list */
-.quick-facts {
-    margin-top: 400px;
-    margin-left: 200px;
+.main-image >img {
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.main-image {
+    position: relative;
+}
+
+.quick-facts { 
+    top: 300px;
+    left: 200px;
     position: absolute;
     width: 400px;
-    height: 200px;
-    border: 1px solid black;
+    height: 200px; 
 }
 
 ul {
     list-style-type: none;
 }
+
+#headingquickfacts {
+    padding-left: 20px;
+}
+
+
 
 /* fact-box div styling */
 
