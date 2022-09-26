@@ -14,15 +14,17 @@ h1, h2, h3 {
 
 /* heading and nav */
 
-.navigation {
+.navigation li{
     float: right;
     font-size: 150%;
+    display: inline;
+    padding-right: 20px;
 }
 
 h1 {
     float: left;
-    padding-top: 20px;
-    padding-right: ;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
 
@@ -39,5 +41,5 @@ h1 {
 }
 
 ul {
-    style: none;
+    list-style-type: none;
 }
