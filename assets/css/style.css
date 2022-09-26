@@ -4,22 +4,40 @@
 
 body {
     font-family: 'inter-tight', sans-serif;
+    font-weight: 100;
 }
 
 h1, h2, h3 {
     font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
 }
+
+/* heading and nav */
 
 .navigation {
     float: right;
-    
+    font-size: 150%;
 }
 
+h1 {
+    float: left;
+    padding-top: 20px;
+    padding-right: ;
+}
+
+
+
+
+/* hero image and list */
 .quick-facts {
     margin-top: 400px;
-    margin-left: 100px;
+    margin-left: 200px;
     position: absolute;
     width: 400px;
-    height: 400px;
+    height: 200px;
     border: 1px solid black;
+}
+
+ul {
+    style: none;
 }
