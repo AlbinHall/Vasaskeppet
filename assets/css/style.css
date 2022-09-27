@@ -29,29 +29,32 @@ h1 {
 }
 
 /* hero image and list */
-.main-image >img {
+#container >img {
     height: 800px;
     width: 100%;
     position: relative;
 }
 
-.main-image {
+#container {
     position: relative;
 }
 
 .quick-facts { 
-    top: 300px;
-    left: 200px;
+    top: 600px;
+    left: 100px;
     position: absolute;
     width: 400px;
     height: 200px; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.825);
+    border: 2px solid black;
 }
 
 ul {
     list-style-type: none;
 }
 
-#headingquickfacts {
+.facts-list {
     padding-left: 20px;
 }
 
