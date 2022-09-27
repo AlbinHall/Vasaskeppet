@@ -5,7 +5,7 @@
 body {
     font-family: 'inter-tight', sans-serif;
     font-weight: 100;
-    background-color: whitesmoke;
+    background-color: rgb(153, 148, 140);
 }
 
 h1, h2, h3 {
@@ -65,19 +65,30 @@ ul {
 #factheader {
     border-top: 1px solid black;
     padding-top: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 
 .textcontainer {
     display: flex;
     gap: 20px;
     margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .text1 {
     height: 500px;
     width: 200px;
     border: 2px solid black;
-    flex: 4;
+    flex: 3;
+    background-color: rgba(0, 0, 0, 0.491);
+    border-radius: 10px;
+}
+
+.text1 h3 {
+    text-align: center;
+    font-size: 150%;
 }
 
 .text2 {
@@ -85,18 +96,22 @@ ul {
     width: 200px;
     border: 2px solid black;
     flex: 1;
+    border-radius: 10px;
 }
 
-.text3 {
-    height: 500px;
-    width: 200px;
-    border: 2px solid black;
-    flex: 1;
+.text2 h3 {
+    text-align: center;
+    font-size: 150%;
 }
 
-.image1 {
-    height: 500px;
-    width: 200px;
-    border: 2px solid black;
-    flex: 1;
+/* the iframe styling and layout */
+
+#iframeheader {
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+iframe {
+    height: 400px;
+    width: 100%;
 }
