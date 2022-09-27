@@ -108,6 +108,26 @@ ul {
 
 /* the form for the sign up */
 
+#signup {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+form input {
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.291);
+    border: none;
+    margin: 10px;
+
+}
+
+#button {
+    width: 10%;
+}
 
 
 
