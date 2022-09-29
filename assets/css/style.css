@@ -86,7 +86,7 @@ ul {
 .text1 {
     height: 500px;
     width: 200px;
-    border: 2px solid black;
+    border: 1px solid black;
     flex: 3;
     background-color: #647E68;
     border-radius: 10px;
@@ -101,21 +101,28 @@ ul {
 .text2 {
     height: 500px;
     width: 200px;
-    border: 2px solid black;
+    border: 1px solid black;
     flex: 1;
     border-radius: 10px;
     background-color: #562B08;
     color: #D8D8D8;
+    text-align: center;
 }
 
 .text2 a {
     text-decoration: none;
     color: #D8D8D8;
+    font-size: 120%;
 }
 
 .text2 h3 {
     text-align: center;
     font-size: 150%;
+}
+
+.text2 li {
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 /* the form for the sign up */
