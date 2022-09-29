@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
     justify-content: space-between;
     align-items: center;
     background-color: #182747;
-    color: white;
+    color: #D8D8D8;
 }
 
 .navigation li{ 
@@ -33,7 +33,7 @@ h1, h2, h3, h4 {
 
 .navigation a {
     text-decoration: none;
-    color: white;
+    color: #D8D8D8;
 }
 
 .navigation a:hover {
@@ -145,7 +145,6 @@ ul {
     width: 100%;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 10px;
     text-align: center;
     background-color: #182747;
     color: #D8D8D8;
@@ -179,6 +178,7 @@ iframe {
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+    /* navigation, header  */
     .header, .navigation li {
         flex-direction: column;
         align-items: center;
@@ -191,6 +191,8 @@ iframe {
         
     }
    
+/* The two text divs/fact box and website links */
+
     .textcontainer {
         flex-direction: column;
     }
@@ -207,9 +209,30 @@ iframe {
         font-size: 70%px;
     }
 
-    #fname, #email {
-        display: inline;
+    /* the form settings for mobile sized screen */
+
+    #signup {
+        width: 100%;
+        height: fit-content;
     }
 
+    #fname, .fnameclass {
+        display: block;
+    }
 
+    #fname {
+        width: 90%;
+        }
+
+    #email, .emailclass {
+        display: block;
+    }
+
+    #email {
+        width: 90%;
+    }
+
+    #button {
+        width: 50%
+    }
 }
