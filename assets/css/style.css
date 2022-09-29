@@ -89,7 +89,7 @@ ul {
 
 .text1 {
     height: 500px;
-    width: 100%px;
+    width: 100%;
     border: 1px solid black;
     flex: 3;
     background-color: #647E68;
@@ -206,7 +206,7 @@ iframe {
 
     .text2 li {
         padding: 4px;
-        font-size: 70%px;
+        font-size: 70%;
     }
 
     /* the form settings for mobile sized screen */
