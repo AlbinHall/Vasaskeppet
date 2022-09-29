@@ -36,6 +36,10 @@ h1, h2, h3 {
     color: white;
 }
 
+.navigation a:hover {
+    color: black;
+}
+
 #home {
     font-size: 200%;
     padding-left: 20px;
@@ -43,7 +47,7 @@ h1, h2, h3 {
 
 /* hero image and list */
 #container >img {
-    height: 800px;
+    height: 60%;
     width: 100%;
     position: relative;
     justify-content: center;
@@ -165,4 +169,27 @@ form input {
 iframe {
     height: 400px;
     width: 100%;
+}
+
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    .header, .navigation li {
+        flex-direction: column;
+        align-items: center;
+        font-size: 100%;
+    }
+
+    .textcontainer {
+        flex-direction: column;
+    }
+
+    .text2 {
+        width: 100%;
+        height: fit-content;
+        text-align: justify;
+    }
+
+
+
 }
