@@ -15,17 +15,30 @@ h1, h2, h3 {
 
 /* heading and nav */
 
-.navigation li{
-    float: right;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+    color: white;
+}
+
+.navigation li{ 
+    justify-content: space-between;
     font-size: 150%;
     display: inline;
     padding-right: 20px;
     padding-top: 25px;
 }
 
-h1 {
-    float: left;
-    padding-left: 10px;
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+#home {
+    font-size: 200%;
+    padding-left: 20px;
 }
 
 /* hero image and list */
